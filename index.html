@@ -1,0 +1,101 @@
+<doctype html>
+<html>
+<head>
+        <link href="css/classic-slides.css" rel="stylesheet" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+</head>
+<style>
+body {
+    background-color: #dfdfdf;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: #111111;
+
+
+}
+.present .animation-rotate-1 {
+    display: inline-block;
+    transform: rotate(-5deg);
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+.present .animation-rotate-2 {
+    display: inline-block;
+    transform: rotate(-5deg);
+    transition: 0.5s;
+    transition-delay: 0.75s;
+}
+.present .animation-rotate-3 {
+    display: inline-block;
+    transform: rotate(-5deg);
+    transition: 0.5s;
+    transition-delay: 1.25s;
+}
+</style>
+<body>
+<div id="impress">
+
+    <div class="step" data-x="0" data-y=0>
+
+        <img src="assets/oddech.png" align="center" width = 800></img>
+        <h1> Oddech w emisji głosu</h1>
+        <p> Kacper Osiński</p>
+
+    </div>
+
+    <div class="step box" data-x=1200 data-y=0>
+        <p>Trzy sposoby oddychania:</p>
+        <ul>
+                <li><span class="animation-rotate-1">Szczytowe</span></li><br>
+                <li><span class="animation-rotate-2">Piersiowe</span></li><br>
+                <li><span class="animation-rotate-3">Przeponowe</span></li><br>
+        </ul>
+    </div>
+
+    <div class="step" data-x=2400 data-y=0>
+<img src="assets/breath-types.gif" align="center" width = 800></img>
+    </div>
+
+    <div class="step" data-x=3600 data-y=0>
+            <h2>Appoggio<br>
+            - podparcie oddechowe</h2>
+    </div>
+
+    <div class="step" data-x=3600 data-y=1000>
+            <img src="assets/inhale-exhale.png" align="center" width = 800></img>
+    </div>
+
+    <div class="step" data-x=4800 data-y=1000 data-rotate-y=180>
+      Szczegółowy opis jak wykonać appogio:<br><br>
+      <quote>Jednocześnie  muszą  zachować swoją aktywność mięśnie wdechowe jak i wydechowe. Świadomie kontrolujemy pracę mięśni  napinających  dolne żebra  (w  konsekwencji  także  przeponę)  Należy  więc  rozszerzyć  żebra, zatrzymać oddech na krótki moment (uczucie jakie nam towarzyszy przy wejściu do lodowatej wody),  trzymając  rozszerzone  żebra  swobodnie wypuszczać  powietrze.  Powietrza  nie należy wciągać, lecz przez rozszerzenie klatki piersiowej – na zasadzie wyrównania ciśnień powietrze samoczynnie zostaje zassane. Należy sobie wyobrazić, że wydech to strumień, który cały czas płynie.</quote>
+    </div>
+
+    <div class="step" data-x=4800 data-y=2000 data-rotate-y=180 data-scale=1>
+      <img src="assets/singer.png" align="center" width = 800></img>
+            <p>Przy prawidłowo wykonanym podparciu powietrza tego lecą naprawdę małe ilości, dlatego mistrzowie bel canto* kazali śpiewać przy zapalonej świeczce używając tylko tyle powietrza ile potrzeba, nie gasząc jej.</p>
+      <span data-x =5000 data-y = 2000 data-rotate-z = 90> *styl w muzyce barokowej </span>
+    </div>
+
+
+    <div class="step" data-x=3600 data-y=2000 data-rotate-y=180>
+            <p>Nie ilość powietrza w płucach lecz jego umiejętne wykorzystanie podczas fonacji jest podstawą prawidłowej techniki oddychania w śpiewie i mowie zawodowej.</p>
+    </div>
+
+    <!-- <div class="step" data-x=2400 data-y=2000 data-rotate-y=180>
+    </div> -->
+
+    <div class="step" data-x=1200 data-y=2000 data-rotate-y=180>
+            <p> Dziękuję i miłego dnia 😎 </p>
+    </div>
+
+    <script src="js/impress.js"></script>
+    <script>
+    impress().init();
+
+    </script>
+
+</div>
+
+</body>
+</html>
+</doctype>
